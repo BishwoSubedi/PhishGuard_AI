@@ -1,0 +1,24 @@
+# Python virtual environment & cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Next.js & Node.js
+node_modules/
+.next/
+out/
+
+# Environment variables (secrets)
+.env
+.env.local
+.env*.local
+
+# Large raw datasets (prevent GitHub 100MB upload errors)
+*.csv
+
+# OS & editor clutter
+.DS_Store
+Thumbs.db
